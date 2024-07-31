@@ -10,7 +10,7 @@ import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 import { MediaQueryProvider } from "@/Common/useMediaQuery.jsx";
 
 // page Components
-import Home from "./Home";
+import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff";
 import Contact from "./Contact";
 
