@@ -265,8 +265,35 @@ const Essays = () => {
                     <li>Using anchor tag</li>
                     <li>Using useNavigate() hook from react-router-dom</li>
                     <li>
-                        Root-Relative path starts with forward slash – HTML is a
-                        site root-relative path to a file
+                        Root-Relative path
+                        <ul>
+                            <li>
+                                {" "}
+                                starts with forward slash – HTML is a site
+                                root-relative path to a file
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Root of domain or resource</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                Starts from the root of the domain or
+                                application
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Give directions to the resource</li>
+                        </ul>
+                        <li>
+                            Document Relative
+                            <ul>
+                                <li>
+                                    . . / or . / stars from the document you are
+                                    in
+                                </li>
+                            </ul>
+                        </li>
                     </li>
                 </ul>
             </SingleEssay>
