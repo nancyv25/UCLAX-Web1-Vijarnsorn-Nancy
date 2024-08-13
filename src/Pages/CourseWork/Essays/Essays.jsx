@@ -216,7 +216,7 @@ const Essays = () => {
             >
                 <ul>
                     <h1>
-                        <p>Frontend Development:</p>{" "}
+                        <p>Frontend Development:</p>
                     </h1>
                     <li>
                         Focuses on creating a fully functional, responsive, and
@@ -231,7 +231,7 @@ const Essays = () => {
                 </ul>
                 <ul>
                     <h1>
-                        <p>Backend Development:</p>{" "}
+                        <p>Backend Development:</p>
                     </h1>
                     <li>
                         Creating reliable architecture that supports the
@@ -297,11 +297,164 @@ const Essays = () => {
                     </li>
                 </ul>
             </SingleEssay>
-            <SingleEssay question={`Q3 Sample Question...`}>
-                Answer goes here.
+            <SingleEssay
+                question={`What is the difference between jpg, gif, png and svg images?`}
+            >
+                <ul>
+                    <h1>
+                        <p>JPG:</p>
+                    </h1>
+                    <li>Little storage space</li>
+                    <li>Supports millions of colors</li>
+                    <li>
+                        JPG is lossy which means unnecessary information is
+                        deleted permanently when file is compressed
+                    </li>
+                    <li>
+                        Ideal for photographs and uploading images to websites,
+                        social media, etc.
+                    </li>
+                    <li>
+                        From class: Does not support transparency or animation
+                    </li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>GIF:</p>
+                    </h1>
+                    <li>
+                        Lossless meaning GIF retains all the data in the file,
+                        but smaller than JPG
+                    </li>
+                    <li>Only supports 256 indexed colors</li>
+                    <li>
+                        Intended for small, simple graphic icons but can be
+                        animated
+                    </li>
+                    <li>
+                        From class: Graphic Inerchange Format, Animation,
+                        Transparency no alpha transparency
+                    </li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>PNG:</p>
+                    </h1>
+                    <li>Ideal for static images but can support animation</li>
+                    <li>Lossless</li>
+                    <li>PNG-8 – can only support 256 index colors</li>
+                    <li>PNG-34 – supports up to 16 million colors</li>
+                    <li>Supports transparency</li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>SVG:</p>
+                    </h1>
+                    <li>Vector image file</li>
+                    <li>Remains crisp and clear at any resolution</li>
+                    <li>Not pixels </li>
+                    <li>
+                        Can be animated, supports transparency, and any color
+                        combos
+                    </li>
+                    <li>
+                        Lossless but tend to be large files when compared to the
+                        other formats
+                    </li>
+                </ul>
             </SingleEssay>
-            <SingleEssay question={`Q3 Sample Question...`}>
-                Answer goes here.
+            <SingleEssay
+                question={`Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.
+
+`}
+            >
+                <ul>
+                    <h1>
+                        <p>Product Manager:</p>
+                    </h1>
+                    <li>
+                        Responsible for setting the overall vision and strategy
+                        of product
+                    </li>
+                    <li>
+                        Makes the decisions on which features to develop to
+                        achieve vision
+                    </li>
+                    <li>Creates roadmap and timeline for deadlines</li>
+                    <li>Assign tasks and assure tasks are met</li>
+                    <li>Analyzing client feedback</li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>Scrum Master:</p>
+                    </h1>
+                    <li>Creating and onboarding project teams</li>
+                    <li>Interface between scrum team and other people/teams</li>
+                    <li>
+                        Conduit between product owners and development teams
+                    </li>
+                    <li>Ensures scrum process is followed</li>
+                    <li>Focuses on time-boxed iterations called sprints</li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>UX Designer:</p>
+                    </h1>
+                    <li>
+                        Customer research and relay the information to the
+                        Product Team
+                    </li>
+                    <li>
+                        Identifies wants and needs of customers and finding the
+                        solution to optimize product performance
+                    </li>
+                    <li>
+                        Ensures the software functions well and is user-friendly
+                    </li>
+                    <li>
+                        Must work closely with developers, product owners, and
+                        other stakeholders to continue to improve the user
+                        experience
+                    </li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>Developer/Engineer:</p>
+                    </h1>
+                    <li>Build the product</li>
+                    <li>
+                        Responsible for programming, testing, and debugging the
+                        product
+                    </li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>QA/SDET:</p>
+                    </h1>
+                    <li>
+                        Help the development team define and implement automated
+                        testing strategies
+                    </li>
+                    <li>
+                        Eg. automated test scripts, test suites, and test
+                        frameworks that can efficiently test the software during
+                        development process
+                    </li>
+                    <li>Spot and fix bugs and defects </li>
+                    <li>
+                        Assists with improving software development and testing
+                        processes
+                    </li>
+                </ul>
+                <ul>
+                    <h1>
+                        <p>DevOps:</p>
+                    </h1>
+                    <li>
+                        Enables team to build, test, and release software faster
+                        and more reliably
+                    </li>
+                </ul>
             </SingleEssay>
             <SingleEssay question={`Q3 Sample Question...`}>
                 Answer goes here.
