@@ -1,16 +1,16 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import ModalImage from "react-modal-image";
 
 import Accolades from "./Accolades/Accolades";
 
 const StaffMember = ({ member }) => {
-    const { name, image, yearStarted, accolades } = member;
+    const { name, small, large, yearStarted, accolades } = member;
 
     return (
         <StaffMemberStyled>
-            <img src={image} alt={name} />
+            <ModalImage small={small} large={large} alt={name} />
             <h3>{name}</h3>
-
             <div className="bottom">
                 <p>
                     <b>Year Started:</b> {yearStarted}
@@ -30,20 +30,19 @@ StaffMember.propTypes = {
 };
 
 const StaffMemberStyled = styled.div`
-    background-color: #eeeeee;
+    background-color: #ddbab8;
 
     img {
-        width: 100%;
         display: block;
     }
 
     .bottom {
-        padding: 20px;
+        padding: 10px;
     }
 
     h3 {
-        color: white;
-        background-color: #014444;
+        color: #cbe3d5;
+        background-color: #58675f;
         padding: 5px 10px;
         margin: 0px;
     }

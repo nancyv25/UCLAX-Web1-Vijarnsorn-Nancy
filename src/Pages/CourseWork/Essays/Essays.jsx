@@ -459,12 +459,6 @@ const Essays = () => {
             <SingleEssay question={`Q3 Sample Question...`}>
                 Answer goes here.
             </SingleEssay>
-            <SingleEssay question={`Q3 Sample Question...`}>
-                Answer goes here.
-            </SingleEssay>
-            <SingleEssay question={`Q3 Sample Question...`}>
-                Answer goes here.
-            </SingleEssay>
         </EssaysStyled>
     );
 };

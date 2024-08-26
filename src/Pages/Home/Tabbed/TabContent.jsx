@@ -1,14 +1,15 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import ModalImage from "react-modal-image";
 
 import { breakpoints } from "@/Common/useMediaQuery";
 
 const TabContent = ({ curTab }) => {
-    const { title, image, text } = curTab;
+    const { title, small, large, text } = curTab;
     return (
         <TabContentStyled>
             <div className="column1">
-                <img src={image} alt={title} />
+                <ModalImage small={small} large={large} alt={title} />;
             </div>
             <div className="column2">
                 <h3>{title}</h3>
@@ -28,7 +29,7 @@ TabContent.propTypes = {
 
 const TabContentStyled = styled.div`
     padding: 20px;
-    background-color: teal;
+    background-color: #58675f;
 
     @media ${breakpoints.isMediumAndUp} {
         display: grid;
@@ -44,12 +45,12 @@ const TabContentStyled = styled.div`
 
     h3 {
         font-size: 30px;
-        color: white;
+        color: #ddbab8;
     }
 
     p {
         font-size: 18px;
-        color: #8cc6c6;
+        color: #cbe3d5;
         margin-bottom: 20px;
         line-height: 150%;
     }

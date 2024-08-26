@@ -38,17 +38,17 @@ const MediumLargeStyled = styled.div`
     nav {
         text-align: center;
         a {
-            width: 80px;
+            width: 150px;
             display: inline-block;
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            border-bottom: solid 3px #ddbab8;
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #ddbab8;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;

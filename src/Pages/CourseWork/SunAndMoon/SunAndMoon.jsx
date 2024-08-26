@@ -37,7 +37,7 @@ const SunAndMoonStyled = styled.div`
 
     h2 {
         font-size: 30px;
-        color: teal;
+        color: #58675f;
     }
 
     img {

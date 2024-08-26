@@ -100,9 +100,9 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #58675f;
         padding: 10px 5px;
-        color: white;
+        color: #ddbab8;
         width: 150px;
         border: none;
         outline: none;
@@ -116,7 +116,7 @@ const FormStyled = styled.form`
 
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #bad1c4;
 
             &:active {
                 background-color: #002020;
