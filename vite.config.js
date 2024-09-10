@@ -12,7 +12,7 @@ export default defineConfig({
         alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
     },
     build: {
-        outDir: "./build",
+        outDir: './build',
     },
-    base: "/UCLAX-Web1-Vijarnsorn-Nancy/",
+    base: '/UCLAX-Web1-Vijarnsorn-Nancy/',
 });
