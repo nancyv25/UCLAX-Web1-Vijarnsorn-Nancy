@@ -456,9 +456,6 @@ const Essays = () => {
                     </li>
                 </ul>
             </SingleEssay>
-            <SingleEssay question={`Q3 Sample Question...`}>
-                Answer goes here.
-            </SingleEssay>
         </EssaysStyled>
     );
 };
