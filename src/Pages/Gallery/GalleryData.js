@@ -13,7 +13,7 @@ import image6B from "./img/Image6-Large.jpg";
 import image7 from "./img/Image7-Small.jpg";
 import image7B from "./img/Image7-Large.jpg";
 import image8 from "./img/Image8-Small.jpg";
-import image8B from "./img/Img1-Large.jpg";
+import image8B from "./img/Image8-Large.jpg";
 
 export const staffData = [
     {
